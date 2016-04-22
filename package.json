@@ -11,5 +11,8 @@
   "dependencies": {
     "request": "^2.72.0",
     "slackbots": "^0.5.1"
+  },
+  "engines": {
+    "node": "4.4.3"
   }
 }
