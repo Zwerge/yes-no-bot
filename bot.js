@@ -4,7 +4,7 @@ var Slackbot = require('slackbots');
 var request = require('request');
 
 var bot = new Slackbot({
-  token: 'xoxb-36886837493-JQE3hBDVaVxswm0OQ5n61Nkx',
+  token: process.env.YESNO_SLACKBOT_TOKEN,
   name: 'Yes/No bot'
 });
 
