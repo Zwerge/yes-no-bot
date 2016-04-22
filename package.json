@@ -1,0 +1,15 @@
+{
+  "name": "yes-no-bot",
+  "version": "1.0.0",
+  "description": "Slack bit for yesno.wtf api",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dr_zwerge",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.72.0",
+    "slackbots": "^0.5.1"
+  }
+}
