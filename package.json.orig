@@ -1,0 +1,55 @@
+{
+<<<<<<< HEAD
+  "name": "yes-no-bot",
+  "version": "1.0.0",
+  "description": "Slack bit for yesno.wtf api",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot.js --websocket-port=$OPENSHIFT_NODEJS_PORT --log-level=1"
+  },
+  "author": "dr_zwerge",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.72.0",
+    "slackbots": "^0.5.1"
+  },
+  "engines": {
+    "node": "4.4.3"
+  }
+=======
+  "name": "OpenShift-Sample-App",
+  "version": "1.0.0",
+  "description": "OpenShift Sample Application",
+  "keywords": [
+    "OpenShift",
+    "Node.js",
+    "application",
+    "openshift"
+  ],
+  "author": {
+    "name": "OpenShift",
+    "email": "ramr@example.org",
+    "url": "http://www.openshift.com/"
+  },
+  "homepage": "http://www.openshift.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/openshift/origin-server"
+  },
+
+  "engines": {
+    "node": ">= 0.6.0",
+    "npm": ">= 1.0.0"
+  },
+
+  "dependencies": {
+    "express": "~3.4.4"
+  },
+  "devDependencies": {},
+  "bundleDependencies": [],
+
+  "private": true,
+  "main": "server.js"
+>>>>>>> ab765b6d43704d104aaf243a5b198d0e438973dc
+}
