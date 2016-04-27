@@ -5,7 +5,8 @@ var request = require('request');
 
 var bot = new Slackbot({
   token: process.env.YESNO_SLACKBOT_TOKEN,
-  name: 'Yes/No bot'
+  name: 'Yes/No bot',
+  port: process.env.OPENSHIFT_NODEJS_PORT || 3000
 });
 
 Slackbot.prototype.start = function () {
